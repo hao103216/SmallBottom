@@ -52,7 +52,7 @@ function mt:len()
 end
 
 function mt:set(key, val)
-	if not key then
+	if key == nil then
 		print('没有传入key')
 		return
 	end
